@@ -493,26 +493,26 @@ h1{
 
 @media (max-width: 1020px) {
   .container-header{
-  width: 390px;
+  width: 385px;
   margin: auto;
 }
 .logo {
   width: 180px;
 }
 .sign{
-  height: 29px;
+  height: 28px;
   min-width: 75px;
   font-size: 14px;
 }
 .login {
   margin-left: 17px;
   margin-right: 1px;
-  height: 29px;
+  height: 28px;
   min-width: 75px;
   font-size: 14px;
 }
 .line {
-  width: 400px;
+  width: 370px;
 }
 .container-invoice{
   width: 400px;
@@ -530,7 +530,7 @@ h1{
   color: #f0f0f0;
   margin: 0;
   margin-top: 20px;
-  margin-left: 65px;
+  margin-left: 45px;
   text-shadow: 
   4px 4px 0px #d5d5d527, 
   7px 7px 0px rgba(0, 0, 0, 0.2);
@@ -553,7 +553,7 @@ h1{
   color: #f0f0f0;
   font-size: 16px;
   align-items: center;
-  margin-left: 80px;
+  margin-left: 65px;
 }
 .create {
   font-size: 18px;
@@ -563,7 +563,7 @@ h1{
   height: 40px;
   padding: 10px;
   border-radius: 18px;
-  margin-left: 125px;
+  margin-left: 110px;
   margin-top: 4px;
 }
 /*---- 2 block -----*/
@@ -601,7 +601,7 @@ h1{
 .advantage-ico{
   width: 45px;
   position: absolute;
-  left: 58px;
+  left: 30px;
   top: 19px;
 }
 .advantage-theme{
@@ -609,7 +609,7 @@ h1{
   font-size: 22px;
   font-weight: 500;
   margin-top: 38px;
-  margin-left: 110px;
+  margin-left: 80px;
 }
 .advantage-text{
   width: 326px;
@@ -618,21 +618,21 @@ h1{
   font-weight: 300;
   color: #f0f0f0;
   margin: 0;
-  margin-left: 59px;
+  margin-left: 30px;
   margin-top: 10px;
   line-height: 140%;
   letter-spacing: -0.1px;
   text-align: justify;
 }
 .container-footer{
-  width: 380px;
+  width: 340px;
   height: 90px;
   margin: 0 auto;
 }
 .download{
   margin: 0;
   margin-top: 30px;
-  width: 370px;
+  width: 330px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
