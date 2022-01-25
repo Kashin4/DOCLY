@@ -63,6 +63,13 @@ h1{
   background-color: #3b3b3b;
   color: white;    
 }
+.link{
+  text-decoration: none;
+  margin-left: auto;
+}
+.link2{
+  text-decoration: none;
+}
 .line {
   height: 0px;
   width: 1350px;
