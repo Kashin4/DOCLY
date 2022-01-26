@@ -8,20 +8,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body >
-        <script>
+  <script>
   window.onload = function () {
     document.body.classList.add('loaded_hiding');
     window.setTimeout(function () {
-      document.body.classList.add('loaded');
-      document.body.classList.remove('loaded_hiding');
+      document.body.classList.add('loader');
+      document.body.classList.remove('loader');
     }, 500);
   }
 </script>
-    <div class="cssload-loader">
-        <div class="cssload-inner cssload-one"></div>
-        <div class="cssload-inner cssload-two"></div>
-        <div class="cssload-inner cssload-three"></div>
-    </div>
+<div class="loader">
+	<div class="loader-inner">
+		<div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		</div>
+		<div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		</div>
+		<div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		</div>
+		<div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		</div>
+		<div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		</div>
+	</div>
+</div>
     <header>
         <div class="container-header">
             <h1>DOCLY INVOICE</h1>
@@ -103,7 +117,6 @@
                 <span class="copy"> © 2022 </span>
             </div>
         </div>
-        
     </footer>
 
 </body>
